@@ -8,6 +8,8 @@ body{
 	background-color: rgba(0, 153, 255, 0.521);
 	margin-top: 0 auto;
 	width: 960px;
+	font-size: 18px;
+	color: rgb(245, 255, 240);
 }
 
   
@@ -49,6 +51,10 @@ body{
 	.container{
 	  width: 70%;
 	}
+  }
+
+  #form-content{
+	  text-align: center;
   }
   
 
