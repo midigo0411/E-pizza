@@ -6,13 +6,10 @@ body{
 }
 .container{
 	background-color: rgba(0, 153, 255, 0.521);
-	margin-top: 50px;
+	margin-top: 0 auto;
+	width: 960px;
 }
-.whatwedo img {
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-  }
+
   
   h1, h3 {
 	text-align: center;
@@ -27,7 +24,7 @@ body{
   }
   
   @media only screen and (max-width: 600px) {
-	.container-fluid {
+	.container {
 	  width: 100%;
 	}
   
@@ -37,27 +34,24 @@ body{
   }
   
   @media only screen and (min-width: 600px) {
-	.container-fluid {
+	.container {
 	  width: 95%;
 	}
   }
   
   @media only screen and (min-width: 768px) {
-	.container-fluid {
+	.container{
 	  width: 90%;
 	}
   }
   
   @media only screen and (min-width: 992px) {
-	.container-fluid {
+	.container{
 	  width: 70%;
 	}
   }
   
-  body {
-	font-family: 'Oswald', sans-serif;
-	color: #689EA8;
-  }
+
 
 
 
